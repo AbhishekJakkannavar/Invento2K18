@@ -14,7 +14,7 @@
 
 
         <ImageButton
-            android:id="@+id/companybutton"
+            android:id="@+id/scheduleButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -23,7 +23,7 @@
             android:scaleType="fitCenter"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/places" />
+            app:srcCompat="@drawable/schedule" />
 
         <TextView
             android:id="@+id/textView2"
@@ -36,9 +36,9 @@
             android:text="Schedule"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
-            app:layout_constraintEnd_toEndOf="@+id/companybutton"
-            app:layout_constraintStart_toStartOf="@+id/companybutton"
-            app:layout_constraintTop_toBottomOf="@+id/companybutton" />
+            app:layout_constraintEnd_toEndOf="@+id/scheduleButton"
+            app:layout_constraintStart_toStartOf="@+id/scheduleButton"
+            app:layout_constraintTop_toBottomOf="@+id/scheduleButton" />
 
         <ImageButton
             android:id="@+id/contactsButton"
@@ -46,19 +46,21 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@null"
-            app:layout_constraintStart_toStartOf="@+id/companybutton"
+            app:layout_constraintStart_toStartOf="@+id/scheduleButton"
             app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:srcCompat="@drawable/upcomingevent" />
+            app:srcCompat="@drawable/contacts" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="28dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/hammer"
             android:text="Contacts"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/contactsButton"
             app:layout_constraintStart_toStartOf="@+id/contactsButton"
             app:layout_constraintTop_toBottomOf="@+id/contactsButton" />
 
@@ -70,7 +72,7 @@
             android:background="@null"
             app:layout_constraintStart_toStartOf="@+id/contactsButton"
             app:layout_constraintTop_toBottomOf="@+id/textView3"
-            app:srcCompat="@drawable/addplace" />
+            app:srcCompat="@drawable/register" />
 
         <TextView
             android:id="@+id/textView4"
@@ -98,7 +100,7 @@
             app:layout_constraintEnd_toEndOf="@+id/imageButton47"
             app:layout_constraintStart_toStartOf="@+id/imageButton47"
             app:layout_constraintTop_toTopOf="@+id/registerButton"
-            app:srcCompat="@drawable/about" />
+            app:srcCompat="@drawable/addplace" />
 
         <ImageButton
             android:id="@+id/imageButton47"
@@ -106,14 +108,14 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:background="@null"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton48"
+            app:layout_constraintEnd_toEndOf="@+id/eventsButton"
             app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="@+id/imageButton48"
+            app:layout_constraintStart_toStartOf="@+id/eventsButton"
             app:layout_constraintTop_toTopOf="@+id/contactsButton"
             app:srcCompat="@drawable/news" />
 
         <ImageButton
-            android:id="@+id/imageButton48"
+            android:id="@+id/eventsButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="24dp"
@@ -121,7 +123,7 @@
             android:background="@null"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/locateme" />
+            app:srcCompat="@drawable/upcomingevent" />
 
         <TextView
             android:id="@+id/textView5"
@@ -143,12 +145,14 @@
             android:layout_width="wrap_content"
             android:layout_height="29dp"
             android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/hammer"
             android:text="Notification"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/imageButton47"
+            app:layout_constraintStart_toStartOf="@+id/imageButton47"
             app:layout_constraintTop_toBottomOf="@+id/imageButton47" />
 
         <ImageButton
@@ -156,12 +160,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:background="@null"
-            android:src="@drawable/about"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/developer"
+            app:layout_constraintEnd_toEndOf="@+id/registerButton"
+            app:layout_constraintStart_toStartOf="@+id/registerButton"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <TextView
@@ -172,11 +175,11 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/hammer"
-            android:text="Trade"
+            android:text="Developers"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton50"
+            app:layout_constraintStart_toStartOf="@+id/imageButton50"
             app:layout_constraintTop_toBottomOf="@+id/imageButton50" />
 
         <TextView
@@ -190,9 +193,35 @@
             android:fontFamily="@font/hammer"
             android:textColor="@color/white"
 
-            app:layout_constraintEnd_toEndOf="@+id/imageButton48"
-            app:layout_constraintStart_toStartOf="@+id/imageButton48"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton48" />
+            app:layout_constraintEnd_toEndOf="@+id/eventsButton"
+            app:layout_constraintStart_toStartOf="@+id/eventsButton"
+            app:layout_constraintTop_toBottomOf="@+id/eventsButton" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/mapButton"
+            android:background="@null"
+            app:layout_constraintHorizontal_bias="0.458"
+            app:layout_constraintStart_toStartOf="@+id/mapButton"
+            app:layout_constraintTop_toTopOf="@+id/imageButton50"
+            app:srcCompat="@drawable/email" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:fontFamily="@font/hammer"
+            android:text="About"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton"
+            app:layout_constraintHorizontal_bias="0.425"
+            app:layout_constraintStart_toStartOf="@+id/imageButton"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

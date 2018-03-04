@@ -23,7 +23,10 @@
         </activity>
         <activity android:name=".Contacts" />
         <activity android:name=".googledoc" />
-        <activity android:name=".map"></activity>
+        <activity android:name=".map" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".ManagingEventsActivity"></activity>
     </application>
 
 </manifest>

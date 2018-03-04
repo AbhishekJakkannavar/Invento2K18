@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
     public ImageButton contactsButton;
     public ImageButton registerButton;
     public ImageButton mapButton;
+    public ImageButton eventButton;
+    private ImageButton imageButtonSch;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +56,30 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, map.class);
                 startActivity(i);
+            }
+        });
+
+        //SEND INTENT TO EVENTS ACTIVITY
+        eventButton = (ImageButton) findViewById(R.id.eventsButton);
+        eventButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent i = new Intent(MainActivity.this,ManagingEventsActivity.class);
+                startActivity(i);
+            }
+        });
+
+        //SEND INTENT TO Schedule Fragment
+        imageButtonSch = (ImageButton) findViewById(R.id.scheduleButton) ;
+
+        imageButtonSch.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this,ScheduleActivity.class);
+                startActivity(intent);
+
             }
         });
     }
