@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="shareholder.infinity.com.invento2k18.Contacts">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/expandableButton1"
+                android:layout_width="fill_parent"
+                android:background="#9c27b0"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton1"
+                android:paddingRight="10dp"
+                android:text="PRINICIPAL"
+                android:textColor="#fff"
+                android:layout_height="100dp" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton1"
+                android:background="#ba68c8"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:lines="5"
+                    android:id="@+id/princic"
+                    android:textStyle="bold"
+                    android:text="Prof. Basavaraj Kategeri\nOffice No:0831:42010818 " />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton2"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/expandableLayout1"
+                android:background="#2196f3"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton2"
+                android:paddingRight="10dp"
+                android:text="STAFF COORDINATORS"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton2"
+                android:background="#90caf9"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:lines="3"
+                    android:id="@+id/princi1"
+                    android:textStyle="bold"
+                    android:text="CIVIL:
+                     \n\n 👨‍🏫Prof.Arjun Virupakshi  📞 9972008555\n "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:lines="4"
+                    android:layout_below="@+id/princi1"
+                    android:id="@+id/princi2"
+                    android:textStyle="bold"
+                    android:text="\n\n👨‍🎓 Prof.Hanumanth Hunashikatti  📞 8147903260 "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/princi2"
+                    android:lines="6"
+                    android:id="@+id/princi3"
+                    android:textStyle="bold"
+                    android:text="\n \nMECHANICAL: \n👨‍🏫Prof.B.G.Koujalagi 📞 9538645617"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/princi3"
+                    android:lines="7"
+                    android:id="@+id/princi4"
+                    android:textStyle="bold"
+                    android:text="\n ELECTRICAL n ELECTRONICS: \n\n 👨‍🏫Prof.Narayan Sugar  Ph.No:8095255902\n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/princi4"
+                    android:lines="6"
+                    android:id="@+id/princi5"
+                    android:textStyle="bold"
+                    android:text="\n ELECTRONICS COMMUNICATION N TELECOMMUNICATION: \n\n👨‍🏫Prof. Cholachgouda  Ph.No:8220583325\n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/princi5"
+                    android:id="@+id/princi6"
+                    android:lines="3"
+                    android:textStyle="bold"
+                    android:text="\n\n 👨‍🏫Prof.Umashree Sajjannavar  Ph.No:8553504884\n\n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/princi6"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/princi7"
+                    android:lines="6"
+                    android:textStyle="bold"
+                    android:text="\n\n\nCOMPUTER SCIENCE and MCA: \n\n👨‍🏫Prof.Raghvendra Patil  Ph.No:9591364909\n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/princi7"
+                    android:id="@+id/princi8"
+                    android:lines="3"
+                    android:textStyle="bold"
+                    android:text="\n\n👨‍🏫Prof.Uttam Patil  Ph.No:9164316462\n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/princi8"
+                    android:id="@+id/princi9"
+                    android:lines="7"
+                    android:textStyle="bold"
+                    android:text="\n \n \nBIOMEDICAL ENGINEERING: \n\n👨‍🏫Prof.VijayLakshmi R H  Ph.No:8861994533\n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_below="@+id/princi9"
+                    android:id="@+id/princi10"
+                    android:lines="7"
+                    android:textStyle="bold"
+                    android:text="\n \n \nCHEMICAL ENGINEERING: \n\n👨‍🏫Prof.Nandini Naik  Ph.No:9449200828\n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/princi11"
+                    android:layout_below="@+id/princi10"
+                    android:lines="8"
+                    android:textStyle="bold"
+                    android:text="\n \n \nBIOTECHNOLOGY: \n\n👨‍🏫Prof.Abhijit Bhatkal  Ph.No:9986977472\n"/>
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton3"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/expandableLayout2"
+                android:background="#10a106"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton3"
+                android:paddingRight="10dp"
+                android:text="STUDENT COODINATORS"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton3"
+                android:background="#9010a106"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rad"
+                    android:textColor="#FFFFFF"
+                    android:text="MUSIC: \n\n Radhakrishna Nayak  📞 8446167817 \n\n "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/adi"
+                    android:layout_below="@+id/rad"
+                    android:text=" Aditya  📞 8792284567 \n \n \n  "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sta"
+                    android:layout_below="@id/adi"
+                    android:textColor="#FFFFFF"
+                    android:text="DANCE: \n\n Stallone 📞 8792916403 \n\n "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aks"
+                    android:layout_below="@+id/sta"
+                    android:textColor="#FFFFFF"
+                    android:text="Akshay 📞 9844110863 "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ani"
+                    android:layout_below="@+id/aks"
+                    android:textColor="#FFFFFF"
+                    android:text="\n \n \n \nHUMAN RESOURCE: \n\n Aniket  📞 7204626372  \n \n \n"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ars"
+                    android:layout_below="@id/ani"
+                    android:textColor="#FFFFFF"
+                    android:text="FINE ARTS: \n\n Arslan 📞 8088867101 "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/abh"
+                    android:layout_below="@id/ars"
+                    android:textColor="#FFFFFF"
+                    android:text="\n\n Abhishek  📞 8971017845"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/aji"
+                    android:layout_below="@+id/abh"
+                    android:text="\n \n \n \nIDEA CLUB: \n\n Ajit 📞 7204455932 "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/ami"
+                    android:layout_below="@+id/aji"
+                    android:text="\n\n Amit 📞 8792713898"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/mak"
+                    android:layout_below="@+id/ami"
+                    android:text="\n \n \n \nMEDIA and LITERARY: \n\nMakarand 📞 9986431788 "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/pri"
+                    android:layout_below="@+id/mak"
+                    android:textColor="#FFFFFF"
+                    android:text="\n\n Priyanka Umrani 📞9916796030 "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sak"
+                    android:lines="8"
+                    android:layout_below="@+id/pri"
+                    android:textColor="#FFFFFF"
+                    android:text="\n \n \nDRAMATICS: \n\nSaksham 📞 9620674303"/>
+
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+            <Button
+                android:id="@+id/expandableButton4"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/expandableLayout3"
+                android:background="#ff9800"
+                android:drawableRight="@android:drawable/arrow_down_float"
+                android:onClick="expandableButton4"
+                android:paddingRight="10dp"
+                android:text="EMERGENCY CONTACT"
+                android:textColor="#fff" />
+
+            <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                android:id="@+id/expandableLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/expandableButton4"
+                android:background="#ffcc80"
+                android:padding="16dp"
+                app:ael_duration="400"
+                app:ael_expanded="false"
+                app:ael_interpolator="accelerate"
+                app:ael_orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sbk"
+                    android:lines="4"
+                    android:textColor="#FFFFFF"
+                    android:text="Prof. S.B Kulkarni  📞 9986788945 \n  " />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/utta"
+                    android:lines="4"
+                    android:layout_below="@+id/sbk"
+                    android:textColor="#FFFFFF"
+                    android:text="Prof.Uttam Patil  📞 9164316462" />
+            </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

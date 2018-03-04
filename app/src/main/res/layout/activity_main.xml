@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="shareholder.infinity.com.invento2k18.MainActivity">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/companybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/places" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/hammer"
+            android:text="Schedule"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/companybutton"
+            app:layout_constraintStart_toStartOf="@+id/companybutton"
+            app:layout_constraintTop_toBottomOf="@+id/companybutton" />
+
+        <ImageButton
+            android:id="@+id/contactsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            app:layout_constraintStart_toStartOf="@+id/companybutton"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:srcCompat="@drawable/upcomingevent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/hammer"
+            android:text="Contacts"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="@+id/contactsButton"
+            app:layout_constraintTop_toBottomOf="@+id/contactsButton" />
+
+        <ImageButton
+            android:id="@+id/registerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            app:layout_constraintStart_toStartOf="@+id/contactsButton"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/addplace" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/hammer"
+            android:text="Register"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/registerButton"
+            app:layout_constraintHorizontal_bias="0.457"
+            app:layout_constraintStart_toStartOf="@+id/registerButton"
+            app:layout_constraintTop_toBottomOf="@+id/registerButton" />
+
+        <ImageButton
+            android:id="@+id/mapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton47"
+            app:layout_constraintStart_toStartOf="@+id/imageButton47"
+            app:layout_constraintTop_toTopOf="@+id/registerButton"
+            app:srcCompat="@drawable/about" />
+
+        <ImageButton
+            android:id="@+id/imageButton47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:background="@null"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton48"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageButton48"
+            app:layout_constraintTop_toTopOf="@+id/contactsButton"
+            app:srcCompat="@drawable/news" />
+
+        <ImageButton
+            android:id="@+id/imageButton48"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/locateme" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/hammer"
+            android:text="Maps"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/mapButton"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="@+id/mapButton"
+            app:layout_constraintTop_toBottomOf="@+id/mapButton" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/hammer"
+            android:text="Notification"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/imageButton47"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton47" />
+
+        <ImageButton
+            android:id="@+id/imageButton50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:src="@drawable/about"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/hammer"
+            android:text="Trade"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton50" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:text="Events"
+            android:fontFamily="@font/hammer"
+            android:textColor="@color/white"
+
+            app:layout_constraintEnd_toEndOf="@+id/imageButton48"
+            app:layout_constraintStart_toStartOf="@+id/imageButton48"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton48" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
