@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     public ImageButton mapButton;
     public ImageButton eventButton;
     private ImageButton imageButtonSch;
+    private ImageButton notificationbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,6 +79,18 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(MainActivity.this,ScheduleActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        notificationbutton = (ImageButton) findViewById(R.id.notificationbutton) ;
+
+        notificationbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this,NotificationActivity.class);
                 startActivity(intent);
 
             }

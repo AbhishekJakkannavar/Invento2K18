@@ -97,13 +97,13 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:background="@null"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton47"
-            app:layout_constraintStart_toStartOf="@+id/imageButton47"
+            app:layout_constraintEnd_toEndOf="@+id/notificationbutton"
+            app:layout_constraintStart_toStartOf="@+id/notificationbutton"
             app:layout_constraintTop_toTopOf="@+id/registerButton"
             app:srcCompat="@drawable/addplace" />
 
         <ImageButton
-            android:id="@+id/imageButton47"
+            android:id="@+id/notificationbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
@@ -151,9 +151,9 @@
             android:text="Notification"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton47"
-            app:layout_constraintStart_toStartOf="@+id/imageButton47"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton47" />
+            app:layout_constraintEnd_toEndOf="@+id/notificationbutton"
+            app:layout_constraintStart_toStartOf="@+id/notificationbutton"
+            app:layout_constraintTop_toBottomOf="@+id/notificationbutton" />
 
         <ImageButton
             android:id="@+id/imageButton50"

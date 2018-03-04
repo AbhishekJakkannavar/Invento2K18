@@ -9,6 +9,8 @@ import android.widget.ImageButton;
 public class ManagingEventsActivity extends AppCompatActivity {
 
     ImageButton technicalevent;
+    ImageButton semitechnical;
+    ImageButton cultural;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,25 @@ public class ManagingEventsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ManagingEventsActivity.this,EventsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+        semitechnical = (ImageButton)findViewById(R.id.semitechnical);
+        semitechnical.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ManagingEventsActivity.this,SemitechnicalActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        cultural = (ImageButton)findViewById(R.id.cultural);
+        cultural.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ManagingEventsActivity.this,CulturalActivity.class);
                 startActivity(intent);
             }
         });

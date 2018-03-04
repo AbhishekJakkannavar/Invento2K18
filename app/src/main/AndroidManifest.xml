@@ -26,7 +26,10 @@
         <activity android:name=".map" />
         <activity android:name=".EventsActivity" />
         <activity android:name=".ScheduleActivity" />
-        <activity android:name=".ManagingEventsActivity"></activity>
+        <activity android:name=".ManagingEventsActivity" />
+        <activity android:name=".SemitechnicalActivity" />
+        <activity android:name=".CulturalActivity" />
+        <activity android:name=".NotificationActivity"></activity>
     </application>
 
 </manifest>
