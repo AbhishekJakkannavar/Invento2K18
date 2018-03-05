@@ -156,7 +156,7 @@
             app:layout_constraintTop_toBottomOf="@+id/notificationbutton" />
 
         <ImageButton
-            android:id="@+id/imageButton50"
+            android:id="@+id/developerbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -178,9 +178,9 @@
             android:text="Developers"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:textColor="@color/white"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton50"
-            app:layout_constraintStart_toStartOf="@+id/imageButton50"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton50" />
+            app:layout_constraintEnd_toEndOf="@+id/developerbutton"
+            app:layout_constraintStart_toStartOf="@+id/developerbutton"
+            app:layout_constraintTop_toBottomOf="@+id/developerbutton" />
 
         <TextView
             android:id="@+id/textView8"
@@ -198,14 +198,14 @@
             app:layout_constraintTop_toBottomOf="@+id/eventsButton" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/aboutbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintEnd_toEndOf="@+id/mapButton"
             android:background="@null"
             app:layout_constraintHorizontal_bias="0.458"
             app:layout_constraintStart_toStartOf="@+id/mapButton"
-            app:layout_constraintTop_toTopOf="@+id/imageButton50"
+            app:layout_constraintTop_toTopOf="@+id/developerbutton"
             app:srcCompat="@drawable/email" />
 
         <TextView
@@ -218,10 +218,10 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
             android:fontFamily="@font/hammer"
             android:text="About"
-            app:layout_constraintEnd_toEndOf="@+id/imageButton"
+            app:layout_constraintEnd_toEndOf="@+id/aboutbutton"
             app:layout_constraintHorizontal_bias="0.425"
-            app:layout_constraintStart_toStartOf="@+id/imageButton"
-            app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+            app:layout_constraintStart_toStartOf="@+id/aboutbutton"
+            app:layout_constraintTop_toBottomOf="@+id/aboutbutton" />
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>

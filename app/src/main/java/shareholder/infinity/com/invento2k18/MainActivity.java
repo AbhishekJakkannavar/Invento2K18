@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     public ImageButton eventButton;
     private ImageButton imageButtonSch;
     private ImageButton notificationbutton;
+    private ImageButton aboutbutton;
+    private ImageButton developerbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,6 +93,31 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(MainActivity.this,NotificationActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        aboutbutton = (ImageButton) findViewById(R.id.aboutbutton) ;
+
+        aboutbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this,AboutActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        developerbutton = (ImageButton) findViewById(R.id.developerbutton) ;
+
+       developerbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this,DeveloperActivity.class);
                 startActivity(intent);
 
             }

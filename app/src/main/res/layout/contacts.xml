@@ -215,7 +215,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/rad"
                     android:textColor="#FFFFFF"
-                    android:text="MUSIC: \n\n Radhakrishna Nayak  📞 8446167817 \n\n "/>
+                    android:text="MELODIA: \n\n Shreya Shirodkar  📞 9449532060 \n\n  Sameeksha Anthony   📞 9964065399 \n\n"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
                     android:textColor="#FFFFFF"
                     android:id="@+id/adi"
                     android:layout_below="@+id/rad"
-                    android:text=" Aditya  📞 8792284567 \n \n \n  "/>
+                    android:text=" Jaisal.Dalal  📞 9480331996 \n \n \n  "/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -231,7 +231,7 @@
                     android:id="@+id/sta"
                     android:layout_below="@id/adi"
                     android:textColor="#FFFFFF"
-                    android:text="DANCE: \n\n Stallone 📞 8792916403 \n\n "/>
+                    android:text="MASK: \n\n Ankita Anand 📞 7022124870 \n\n "/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -239,7 +239,7 @@
                     android:id="@+id/aks"
                     android:layout_below="@+id/sta"
                     android:textColor="#FFFFFF"
-                    android:text="Akshay 📞 9844110863 "/>
+                    android:text="Rutvika 📞 8197936755 "/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -247,7 +247,7 @@
                     android:id="@+id/ani"
                     android:layout_below="@+id/aks"
                     android:textColor="#FFFFFF"
-                    android:text="\n \n \n \nHUMAN RESOURCE: \n\n Aniket  📞 7204626372  \n \n \n"/>
+                    android:text="\n \n \n \nHUMAN RESOURCE: \n\n Rohan J  📞 8431072319  \n \n \n Ritika G 📞 9742566269\n\n"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -255,7 +255,7 @@
                     android:id="@+id/ars"
                     android:layout_below="@id/ani"
                     android:textColor="#FFFFFF"
-                    android:text="FINE ARTS: \n\n Arslan 📞 8088867101 "/>
+                    android:text="FINE ARTS: \n\n Sonali  📞 7259781424"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -263,7 +263,7 @@
                     android:id="@+id/abh"
                     android:layout_below="@id/ars"
                     android:textColor="#FFFFFF"
-                    android:text="\n\n Abhishek  📞 8971017845"/>
+                    android:text="\n\n Amruth  📞 9632055627"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -271,7 +271,7 @@
                     android:textColor="#FFFFFF"
                     android:id="@+id/aji"
                     android:layout_below="@+id/abh"
-                    android:text="\n \n \n \nIDEA CLUB: \n\n Ajit 📞 7204455932 "/>
+                    android:text="\n \n \n \nIDEA CLUB: \n\n Chaitanya 📞 9632512132 "/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -279,7 +279,7 @@
                     android:textColor="#FFFFFF"
                     android:id="@+id/ami"
                     android:layout_below="@+id/aji"
-                    android:text="\n\n Amit 📞 8792713898"/>
+                    android:text="\n\n Amit 📞 8951188874"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -287,7 +287,7 @@
                     android:textColor="#FFFFFF"
                     android:id="@+id/mak"
                     android:layout_below="@+id/ami"
-                    android:text="\n \n \n \nMEDIA and LITERARY: \n\nMakarand 📞 9986431788 "/>
+                    android:text="\n \n \n \nMEDIA and LITERARY: \n\n Praful K 📞 9448873837 "/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -295,7 +295,7 @@
                     android:id="@+id/pri"
                     android:layout_below="@+id/mak"
                     android:textColor="#FFFFFF"
-                    android:text="\n\n Priyanka Umrani 📞9916796030 "/>
+                    android:text="\n\n Abhishek B 📞 9035925299 \n\n Prem H 📞 88808558734"/>
 
 
                 <TextView
@@ -305,7 +305,7 @@
                     android:lines="8"
                     android:layout_below="@+id/pri"
                     android:textColor="#FFFFFF"
-                    android:text="\n \n \nDRAMATICS: \n\nSaksham 📞 9620674303"/>
+                    android:text="\n \n \nCommunity Development : \n\n Sushant  📞 8792786099 \n\n Juned B   📞 9535852829"/>
 
             </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
 
