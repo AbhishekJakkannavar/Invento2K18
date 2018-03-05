@@ -9,6 +9,11 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [manifestApplicationId         : "${applicationId}",
+                                pushbots_app_id               : "5a9c979c1db2dc6688168c1c",
+                                pushbots_loglevel             : "DEBUG",
+                                google_sender_id              : "29935145030"]
     }
     buildTypes {
         release {
@@ -36,6 +41,8 @@ dependencies {
     implementation 'com.android.support:cardview-v7:26.0.1'
     compile 'com.squareup.picasso:picasso:2.5.2'
 
+    compile 'com.google.android.gms:play-services-gcm:11.0.4'
+    compile 'com.pushbots:pushbots-lib:3.1@aar'
     compile 'com.github.aakira:expandable-layout:1.4.2@aar'
     compile 'com.firebaseui:firebase-ui-database:1.1.1'
     implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.6.0'
@@ -44,15 +51,14 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
 
-
-
-
-
-
-
-
-
-
+allprojects {
+    repositories {
+        jcenter()
+        maven {
+            url "https://maven.google.com"
+        }
+    }
+}
 
 
 

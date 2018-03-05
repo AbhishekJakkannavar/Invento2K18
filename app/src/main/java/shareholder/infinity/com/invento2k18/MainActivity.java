@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.pushbots.push.Pushbots;
+
 public class MainActivity extends AppCompatActivity {
 
     public ImageButton contactsButton;
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Pushbots.sharedInstance().registerForRemoteNotifications();
 
 
 
